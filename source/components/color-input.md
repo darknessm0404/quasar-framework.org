@@ -87,12 +87,17 @@ This section refers to `before` and `after` properties which can add additional 
 {
   // required icon
   icon: String,
+  
   // required function to call when
   // icon is clicked/tapped
   handler: Function,
+  
+  // Optional. Show icon button
+  // hidden if condition === false
+  condition: Boolean,
 
   // Optional. Show icon button
-  // if model has a value
+  // visible if model has content
   content: Boolean,
 
   // Optional. Show icon button
