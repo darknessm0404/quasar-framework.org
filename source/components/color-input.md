@@ -92,8 +92,8 @@ This section refers to `before` and `after` properties which can add additional 
   // icon is clicked/tapped
   handler: Function,
   
-  // Optional. Show icon button
-  // hidden if condition === false
+  // Optional. Hide icon button
+  // if condition === false
   condition: Boolean,
 
   // Optional. Show icon button
